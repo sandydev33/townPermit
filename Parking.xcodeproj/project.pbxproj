@@ -7,21 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A48C1F16962D86A177CFE6 /* Pods_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFABAC78C3110940C95B956 /* Pods_Parking.framework */; };
 		CC01208D1F556C3700CCCF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01208C1F556C3700CCCF6B /* AppDelegate.swift */; };
-		CC01208F1F556C3700CCCF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01208E1F556C3700CCCF6B /* ViewController.swift */; };
 		CC0120921F556C3700CCCF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0120901F556C3700CCCF6B /* Main.storyboard */; };
 		CC0120941F556C3700CCCF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0120931F556C3700CCCF6B /* Assets.xcassets */; };
 		CC0120971F556C3700CCCF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0120951F556C3700CCCF6B /* LaunchScreen.storyboard */; };
+		CC01209F1F556D3800CCCF6B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01209E1F556D3800CCCF6B /* RegisterViewController.swift */; };
+		CC0120A21F55861B00CCCF6B /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0120A11F55861B00CCCF6B /* EntryViewController.swift */; };
+		CC0120A41F55A1C200CCCF6B /* ParkingPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0120A31F55A1C200CCCF6B /* ParkingPassViewController.swift */; };
+		CC3142841F5682B300860364 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3142831F5682B300860364 /* ProfileViewController.swift */; };
+		CC3142871F56903E00860364 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3142861F56903E00860364 /* ProfileTableViewCell.swift */; };
+		CC31428A1F56A7A200860364 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3142891F56A7A200860364 /* Global.swift */; };
+		CC31428C1F56BB2200860364 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC31428B1F56BB2200860364 /* AdSupport.framework */; };
+		CC31428E1F56BB2B00860364 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC31428D1F56BB2B00860364 /* MapKit.framework */; };
+		CC3142901F56BB3400860364 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC31428F1F56BB3400860364 /* CoreLocation.framework */; };
+		CC3142921F56BDC400860364 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3142911F56BDC400860364 /* FBSDKLoginKit.framework */; };
+		CC31429D1F56BDE100860364 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC3142941F56BDE100860364 /* AccountKitStrings.bundle */; };
+		CC31429E1F56BDE100860364 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3142951F56BDE100860364 /* Bolts.framework */; };
+		CC31429F1F56BDE100860364 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC3142961F56BDE100860364 /* FacebookSDKStrings.bundle */; };
+		CC3142A11F56BDE100860364 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3142981F56BDE100860364 /* FBSDKCoreKit.framework */; };
+		CC3142A41F56BDE100860364 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC31429B1F56BDE100860364 /* FBSDKShareKit.framework */; };
+		CC3142AC1F56CDF400860364 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3142AB1F56CDF400860364 /* iAd.framework */; };
+		CC3142B61F56DAB400860364 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC3142B51F56DAB400860364 /* GoogleService-Info.plist */; };
+		CC3142BC1F56E08900860364 /* GoogleSignIn.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3142BB1F56E08900860364 /* GoogleSignIn.bundle */; };
+		CC3462E21F580CE500679840 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3462E11F580CE500679840 /* PaymentViewController.swift */; };
+		CC3462E41F5820DF00679840 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3462E31F5820DF00679840 /* Artwork.swift */; };
+		CC3462E81F582FA800679840 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462E71F582FA800679840 /* Accelerate.framework */; };
+		CC3462EA1F582FB400679840 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462E91F582FB400679840 /* AudioToolbox.framework */; };
+		CC3462EC1F582FBD00679840 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462EB1F582FBD00679840 /* AVFoundation.framework */; };
+		CC3462EE1F582FCF00679840 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462ED1F582FCF00679840 /* CoreMedia.framework */; };
+		CC3462F01F582FD900679840 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462EF1F582FD900679840 /* MessageUI.framework */; };
+		CC3462F21F582FE400679840 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462F11F582FE400679840 /* MobileCoreServices.framework */; };
+		CC3462F41F582FEE00679840 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462F31F582FEE00679840 /* SystemConfiguration.framework */; };
+		CC3462F61F582FF500679840 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3462F51F582FF500679840 /* SafariServices.framework */; };
+		CC4043781F618CAC00F80F2E /* EditChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4043771F618CAC00F80F2E /* EditChangeViewController.swift */; };
+		CC8A21721F5E954F00D3118B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A21701F5E954F00D3118B /* WebService.swift */; };
+		CC8A21731F5E954F00D3118B /* WebUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A21711F5E954F00D3118B /* WebUrl.swift */; };
+		CC9DAB481F6FF00A00EF5A44 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DAB471F6FF00A00EF5A44 /* DashboardViewController.swift */; };
+		CC9DAB4A1F6FFD3500EF5A44 /* FishingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DAB491F6FFD3500EF5A44 /* FishingViewController.swift */; };
+		CC9DAB4C1F6FFE3700EF5A44 /* FishingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DAB4B1F6FFE3700EF5A44 /* FishingTableViewCell.swift */; };
+		CC9DAB4E1F70128700EF5A44 /* FisingAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DAB4D1F70128700EF5A44 /* FisingAddressTableViewCell.swift */; };
+		CC9DAB501F7012A300EF5A44 /* MailAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DAB4F1F7012A300EF5A44 /* MailAddressTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D73B4B4D285F70E9BB6EC8F /* Pods-Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parking/Pods-Parking.debug.xcconfig"; sourceTree = "<group>"; };
+		5EFABAC78C3110940C95B956 /* Pods_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD1A5F335195B369C4ED1AB /* Pods-Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parking/Pods-Parking.release.xcconfig"; sourceTree = "<group>"; };
 		CC0120891F556C3700CCCF6B /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC01208C1F556C3700CCCF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC01208E1F556C3700CCCF6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC0120911F556C3700CCCF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC0120931F556C3700CCCF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0120961F556C3700CCCF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC0120981F556C3700CCCF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC01209E1F556D3800CCCF6B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CC0120A11F55861B00CCCF6B /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		CC0120A31F55A1C200CCCF6B /* ParkingPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingPassViewController.swift; sourceTree = "<group>"; };
+		CC3142831F5682B300860364 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC3142861F56903E00860364 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		CC3142891F56A7A200860364 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		CC31428B1F56BB2200860364 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CC31428D1F56BB2B00860364 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CC31428F1F56BB3400860364 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CC3142911F56BDC400860364 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CC3142931F56BDE100860364 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		CC3142941F56BDE100860364 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		CC3142951F56BDE100860364 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CC3142961F56BDE100860364 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		CC3142971F56BDE100860364 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		CC3142981F56BDE100860364 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CC3142991F56BDE100860364 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		CC31429A1F56BDE100860364 /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKPlacesKit.framework; sourceTree = "<group>"; };
+		CC31429B1F56BDE100860364 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CC3142AB1F56CDF400860364 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CC3142B41F56D57E00860364 /* ParkingBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingBridgingHeader.h; sourceTree = "<group>"; };
+		CC3142B51F56DAB400860364 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC3142B71F56DE8100860364 /* Pods_Parking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Parking.framework; path = "../../Users/khim/Library/Developer/Xcode/DerivedData/Parking-ciumzyrluokpqtdqwwntxryuobxt/Build/Products/Debug-iphonesimulator/Pods_Parking.framework"; sourceTree = "<group>"; };
+		CC3142B91F56DF7800860364 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		CC3142BB1F56E08900860364 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Pods/GoogleSignIn/Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		CC3462E11F580CE500679840 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CC3462E31F5820DF00679840 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		CC3462E51F582F6500679840 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPayPalMobile.a; path = "Pods/PayPal-iOS-SDK/PayPalMobile/libPayPalMobile.a"; sourceTree = "<group>"; };
+		CC3462E71F582FA800679840 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CC3462E91F582FB400679840 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC3462EB1F582FBD00679840 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CC3462ED1F582FCF00679840 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CC3462EF1F582FD900679840 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CC3462F11F582FE400679840 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CC3462F31F582FEE00679840 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC3462F51F582FF500679840 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		CC4043771F618CAC00F80F2E /* EditChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditChangeViewController.swift; sourceTree = "<group>"; };
+		CC8A21701F5E954F00D3118B /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CC8A21711F5E954F00D3118B /* WebUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUrl.swift; sourceTree = "<group>"; };
+		CC9DAB471F6FF00A00EF5A44 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CC9DAB491F6FFD3500EF5A44 /* FishingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishingViewController.swift; sourceTree = "<group>"; };
+		CC9DAB4B1F6FFE3700EF5A44 /* FishingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishingTableViewCell.swift; sourceTree = "<group>"; };
+		CC9DAB4D1F70128700EF5A44 /* FisingAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FisingAddressTableViewCell.swift; sourceTree = "<group>"; };
+		CC9DAB4F1F7012A300EF5A44 /* MailAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailAddressTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3462F61F582FF500679840 /* SafariServices.framework in Frameworks */,
+				CC3462F41F582FEE00679840 /* SystemConfiguration.framework in Frameworks */,
+				CC3462F21F582FE400679840 /* MobileCoreServices.framework in Frameworks */,
+				CC3462F01F582FD900679840 /* MessageUI.framework in Frameworks */,
+				CC3462EE1F582FCF00679840 /* CoreMedia.framework in Frameworks */,
+				CC3142901F56BB3400860364 /* CoreLocation.framework in Frameworks */,
+				CC3462EC1F582FBD00679840 /* AVFoundation.framework in Frameworks */,
+				CC3462EA1F582FB400679840 /* AudioToolbox.framework in Frameworks */,
+				CC3462E81F582FA800679840 /* Accelerate.framework in Frameworks */,
+				CC3142AC1F56CDF400860364 /* iAd.framework in Frameworks */,
+				CC31428E1F56BB2B00860364 /* MapKit.framework in Frameworks */,
+				CC3142921F56BDC400860364 /* FBSDKLoginKit.framework in Frameworks */,
+				CC31428C1F56BB2200860364 /* AdSupport.framework in Frameworks */,
+				CC3142A41F56BDE100860364 /* FBSDKShareKit.framework in Frameworks */,
+				CC3142BC1F56E08900860364 /* GoogleSignIn.bundle in Frameworks */,
+				CC31429E1F56BDE100860364 /* Bolts.framework in Frameworks */,
+				CC3142A11F56BDE100860364 /* FBSDKCoreKit.framework in Frameworks */,
+				01A48C1F16962D86A177CFE6 /* Pods_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125C864A0D2D97E78593BAD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D73B4B4D285F70E9BB6EC8F /* Pods-Parking.debug.xcconfig */,
+				AAD1A5F335195B369C4ED1AB /* Pods-Parking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6757CAFF7A9C5738D2763A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3462F51F582FF500679840 /* SafariServices.framework */,
+				CC3462F31F582FEE00679840 /* SystemConfiguration.framework */,
+				CC3462F11F582FE400679840 /* MobileCoreServices.framework */,
+				CC3462EF1F582FD900679840 /* MessageUI.framework */,
+				CC3462ED1F582FCF00679840 /* CoreMedia.framework */,
+				CC3462EB1F582FBD00679840 /* AVFoundation.framework */,
+				CC3462E91F582FB400679840 /* AudioToolbox.framework */,
+				CC3462E71F582FA800679840 /* Accelerate.framework */,
+				CC3462E51F582F6500679840 /* libPayPalMobile.a */,
+				CC3142BB1F56E08900860364 /* GoogleSignIn.bundle */,
+				CC3142B91F56DF7800860364 /* GoogleSignIn.framework */,
+				CC3142B71F56DE8100860364 /* Pods_Parking.framework */,
+				CC3142AB1F56CDF400860364 /* iAd.framework */,
+				CC3142931F56BDE100860364 /* AccountKit.framework */,
+				CC3142941F56BDE100860364 /* AccountKitStrings.bundle */,
+				CC3142951F56BDE100860364 /* Bolts.framework */,
+				CC3142961F56BDE100860364 /* FacebookSDKStrings.bundle */,
+				CC3142971F56BDE100860364 /* FBNotifications.framework */,
+				CC3142981F56BDE100860364 /* FBSDKCoreKit.framework */,
+				CC3142991F56BDE100860364 /* FBSDKMessengerShareKit.framework */,
+				CC31429A1F56BDE100860364 /* FBSDKPlacesKit.framework */,
+				CC31429B1F56BDE100860364 /* FBSDKShareKit.framework */,
+				CC3142911F56BDC400860364 /* FBSDKLoginKit.framework */,
+				CC31428F1F56BB3400860364 /* CoreLocation.framework */,
+				CC31428D1F56BB2B00860364 /* MapKit.framework */,
+				CC31428B1F56BB2200860364 /* AdSupport.framework */,
+				5EFABAC78C3110940C95B956 /* Pods_Parking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC0120801F556C3700CCCF6B = {
 			isa = PBXGroup;
 			children = (
+				CC3142B51F56DAB400860364 /* GoogleService-Info.plist */,
+				CC3142B41F56D57E00860364 /* ParkingBridgingHeader.h */,
 				CC01208B1F556C3700CCCF6B /* Parking */,
 				CC01208A1F556C3700CCCF6B /* Products */,
+				125C864A0D2D97E78593BAD5 /* Pods */,
+				6757CAFF7A9C5738D2763A67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +201,61 @@
 		CC01208B1F556C3700CCCF6B /* Parking */ = {
 			isa = PBXGroup;
 			children = (
+				CC8A216F1F5E953500D3118B /* WebService */,
+				CC3142881F56A77500860364 /* Global */,
+				CC0120A01F556D3F00CCCF6B /* Controller */,
+				CC3142851F56902000860364 /* CellClasses */,
 				CC01208C1F556C3700CCCF6B /* AppDelegate.swift */,
-				CC01208E1F556C3700CCCF6B /* ViewController.swift */,
 				CC0120901F556C3700CCCF6B /* Main.storyboard */,
 				CC0120931F556C3700CCCF6B /* Assets.xcassets */,
 				CC0120951F556C3700CCCF6B /* LaunchScreen.storyboard */,
 				CC0120981F556C3700CCCF6B /* Info.plist */,
 			);
 			path = Parking;
+			sourceTree = "<group>";
+		};
+		CC0120A01F556D3F00CCCF6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC3462E31F5820DF00679840 /* Artwork.swift */,
+				CC01209E1F556D3800CCCF6B /* RegisterViewController.swift */,
+				CC0120A11F55861B00CCCF6B /* EntryViewController.swift */,
+				CC0120A31F55A1C200CCCF6B /* ParkingPassViewController.swift */,
+				CC3142831F5682B300860364 /* ProfileViewController.swift */,
+				CC3462E11F580CE500679840 /* PaymentViewController.swift */,
+				CC4043771F618CAC00F80F2E /* EditChangeViewController.swift */,
+				CC9DAB471F6FF00A00EF5A44 /* DashboardViewController.swift */,
+				CC9DAB491F6FFD3500EF5A44 /* FishingViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC3142851F56902000860364 /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CC3142861F56903E00860364 /* ProfileTableViewCell.swift */,
+				CC9DAB4B1F6FFE3700EF5A44 /* FishingTableViewCell.swift */,
+				CC9DAB4D1F70128700EF5A44 /* FisingAddressTableViewCell.swift */,
+				CC9DAB4F1F7012A300EF5A44 /* MailAddressTableViewCell.swift */,
+			);
+			name = CellClasses;
+			sourceTree = "<group>";
+		};
+		CC3142881F56A77500860364 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CC3142891F56A7A200860364 /* Global.swift */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		CC8A216F1F5E953500D3118B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A21701F5E954F00D3118B /* WebService.swift */,
+				CC8A21711F5E954F00D3118B /* WebUrl.swift */,
+			);
+			name = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC01209B1F556C3700CCCF6B /* Build configuration list for PBXNativeTarget "Parking" */;
 			buildPhases = (
+				C00B156F8F18992C89634C2C /* [CP] Check Pods Manifest.lock */,
 				CC0120851F556C3700CCCF6B /* Sources */,
 				CC0120861F556C3700CCCF6B /* Frameworks */,
 				CC0120871F556C3700CCCF6B /* Resources */,
+				38E50DCF8D051B8CB07B9EFA /* [CP] Embed Pods Frameworks */,
+				EA95B223B093EEDC75F4F964 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +294,13 @@
 					CC0120881F556C3700CCCF6B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = TY4PEMRU3F;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,20 +328,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0120971F556C3700CCCF6B /* LaunchScreen.storyboard in Resources */,
+				CC31429F1F56BDE100860364 /* FacebookSDKStrings.bundle in Resources */,
 				CC0120941F556C3700CCCF6B /* Assets.xcassets in Resources */,
 				CC0120921F556C3700CCCF6B /* Main.storyboard in Resources */,
+				CC31429D1F56BDE100860364 /* AccountKitStrings.bundle in Resources */,
+				CC3142B61F56DAB400860364 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38E50DCF8D051B8CB07B9EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking/Pods-Parking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00B156F8F18992C89634C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA95B223B093EEDC75F4F964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking/Pods-Parking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC0120851F556C3700CCCF6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC01208F1F556C3700CCCF6B /* ViewController.swift in Sources */,
+				CC8A21731F5E954F00D3118B /* WebUrl.swift in Sources */,
+				CC9DAB4C1F6FFE3700EF5A44 /* FishingTableViewCell.swift in Sources */,
+				CC0120A41F55A1C200CCCF6B /* ParkingPassViewController.swift in Sources */,
 				CC01208D1F556C3700CCCF6B /* AppDelegate.swift in Sources */,
+				CC9DAB4A1F6FFD3500EF5A44 /* FishingViewController.swift in Sources */,
+				CC3142841F5682B300860364 /* ProfileViewController.swift in Sources */,
+				CC4043781F618CAC00F80F2E /* EditChangeViewController.swift in Sources */,
+				CC3462E21F580CE500679840 /* PaymentViewController.swift in Sources */,
+				CC9DAB4E1F70128700EF5A44 /* FisingAddressTableViewCell.swift in Sources */,
+				CC3142871F56903E00860364 /* ProfileTableViewCell.swift in Sources */,
+				CC9DAB481F6FF00A00EF5A44 /* DashboardViewController.swift in Sources */,
+				CC01209F1F556D3800CCCF6B /* RegisterViewController.swift in Sources */,
+				CC9DAB501F7012A300EF5A44 /* MailAddressTableViewCell.swift in Sources */,
+				CC0120A21F55861B00CCCF6B /* EntryViewController.swift in Sources */,
+				CC3462E41F5820DF00679840 /* Artwork.swift in Sources */,
+				CC8A21721F5E954F00D3118B /* WebService.swift in Sources */,
+				CC31428A1F56A7A200860364 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +455,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -208,6 +478,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3f824dc8-bbb9-45b1-8dcd-d376244565ca";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -237,7 +508,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -252,6 +524,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3f824dc8-bbb9-45b1-8dcd-d376244565ca";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -261,26 +534,215 @@
 		};
 		CC01209C1F556C3700CCCF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D73B4B4D285F70E9BB6EC8F /* Pods-Parking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TY4PEMRU3F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+				);
 				INFOPLIST_FILE = Parking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Parking;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/PayPal-iOS-SDK/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardIO\"",
+					"-l\"PayPalMobile\"",
+					"-l\"c++\"",
+					"-l\"opencv_core\"",
+					"-l\"opencv_imgproc\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Apsara\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GTMOAuth2\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"NZCircularImageView\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIActivityIndicator_for_SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = parking.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Sandeep/Parking/ParkingBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CC01209D1F556C3700CCCF6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD1A5F335195B369C4ED1AB /* Pods-Parking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arun Prasad (TY4PEMRU3F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TY4PEMRU3F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+				);
 				INFOPLIST_FILE = Parking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Parking;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/PayPal-iOS-SDK/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardIO\"",
+					"-l\"PayPalMobile\"",
+					"-l\"c++\"",
+					"-l\"opencv_core\"",
+					"-l\"opencv_imgproc\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Apsara\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GTMOAuth2\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"NZCircularImageView\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIActivityIndicator_for_SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = parking.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Sandeep/Parking/ParkingBridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +766,7 @@
 				CC01209D1F556C3700CCCF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
